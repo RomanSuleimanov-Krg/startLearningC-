@@ -1,0 +1,7 @@
+C:\MyProjects\startLearningC-\startLearningC#\bin\Debug\startLearningC#.exe.config
+C:\MyProjects\startLearningC-\startLearningC#\bin\Debug\startLearningC#.exe
+C:\MyProjects\startLearningC-\startLearningC#\bin\Debug\startLearningC#.pdb
+C:\MyProjects\startLearningC-\startLearningC#\obj\Debug\startLearningC#.csproj.AssemblyReference.cache
+C:\MyProjects\startLearningC-\startLearningC#\obj\Debug\startLearningC#.csproj.CoreCompileInputs.cache
+C:\MyProjects\startLearningC-\startLearningC#\obj\Debug\startLearningC#.exe
+C:\MyProjects\startLearningC-\startLearningC#\obj\Debug\startLearningC#.pdb
