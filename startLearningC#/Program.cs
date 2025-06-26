@@ -41,9 +41,9 @@ namespace startLearningC_
             //Console.WriteLine(age);
 
             //Работа с консолью
-            string name;
-            name = Console.ReadLine();
-            Console.WriteLine(name);
+            //string name;
+            //name = Console.ReadLine();
+            //Console.WriteLine(name);
 
             //Закрепление изученного
             //int health;
@@ -78,18 +78,55 @@ namespace startLearningC_
             //Console.WriteLine($"У вас теперь {food} еды и осталось {money - foodUnitPrice * food}");
 
             //Логический оператор If
-            int age;
-            int needAge = 18;
-            age = 15;
-            if (age >= needAge)
-            {
-                Console.WriteLine("Всё норм");
-            }
+            //int age;
+            //int needAge = 18;
+            //age = 15;
+            //if (age >= needAge)
+            //{
+            //    Console.WriteLine("Всё норм");
+            //}
 
-            else
+            //else
+            //{
+            //    Console.WriteLine("Ты слишком молод");
+            //}
+
+            //Логические операторы И и ИЛИ
+            //И = &&
+
+            //ИЛИ = ||
+
+            //int money = 200;
+            //int level = 5;
+
+            //if (money >= 500 || level > 9)
+            //{
+            //    Console.WriteLine("Ты принят в гильдию!!!");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Вы слишком слабы для нашей гильдии!!!");
+            //}
+
+            string dayOfWeek;
+            dayOfWeek = Console.ReadLine();
+
+            switch (dayOfWeek)
             {
-                Console.WriteLine("Ты слишком молод");
+                case "понедельник":
+                    Console.WriteLine("go to the cinema");
+                    break;
+                case "вторник":
+                    Console.WriteLine("Go out");
+                    break;
+                default:
+                    {
+                        Console.WriteLine("Ошибочка!");
+                        break;
+                    }
             }
         }
     }
 }
+
+
