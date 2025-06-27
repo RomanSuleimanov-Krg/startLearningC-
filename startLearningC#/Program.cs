@@ -108,23 +108,97 @@ namespace startLearningC_
             //    Console.WriteLine("Вы слишком слабы для нашей гильдии!!!");
             //}
 
-            string dayOfWeek;
-            dayOfWeek = Console.ReadLine();
+            //string dayOfWeek;
+            //dayOfWeek = Console.ReadLine();
 
-            switch (dayOfWeek)
-            {
-                case "понедельник":
-                    Console.WriteLine("go to the cinema");
-                    break;
-                case "вторник":
-                    Console.WriteLine("Go out");
-                    break;
-                default:
-                    {
-                        Console.WriteLine("Ошибочка!");
-                        break;
-                    }
-            }
+            //switch (dayOfWeek)
+            //{
+            //    case "понедельник":
+            //        Console.WriteLine("go to the cinema");
+            //        break;
+            //    case "вторник":
+            //        Console.WriteLine("Go out");
+            //        break;
+            //    default:
+            //        {
+            //            Console.WriteLine("Ошибочка!");
+            //            break;
+            //        }
+            //}
+
+            //Условные операторы на примере
+
+            //string password;
+            //string userInput;
+
+            //password = "123qwe";
+            //userInput = Console.ReadLine();
+
+            //if (userInput == password)
+            //{
+            //    Console.WriteLine("Пароль верный");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Неверный пароль");
+            //}
+
+            //Обменник валюты со switch
+
+            //float rubInWallet, usdInWallet;
+            //string desiredOperation;
+            //float rubToUsd = 64, usdToRub = 66;
+            //float exchangeCurrency;
+
+            //Console.Write("Сколько у вас рублей на балансе? : ");
+            //rubInWallet = Convert.ToSingle(Console.ReadLine());
+            //Console.Write("Сколько у вас долларов на балансе? : ");
+            //usdInWallet = Convert.ToSingle(Console.ReadLine());
+
+            //Console.WriteLine("Выберите необходимую операцию: ");
+            //Console.WriteLine("1 - Рубли на доллары");
+            //Console.WriteLine("2 - Доллары на рубли");
+            //Console.Write("Ваш выбор: ");
+            //desiredOperation = Console.ReadLine();
+
+            //switch (desiredOperation)
+            //{
+            //    case "1":
+            //        Console.WriteLine("Обмен рублей на доллары");
+            //        Console.WriteLine("Сколько вы хотите обменять?");
+            //        exchangeCurrency = Convert.ToSingle(Console.ReadLine());
+            //        if (rubInWallet > exchangeCurrency)
+            //        {
+            //            rubInWallet -= exchangeCurrency;
+            //            usdInWallet += exchangeCurrency / rubToUsd;
+            //        }
+            //        else
+            //        {
+            //            Console.WriteLine("Низя брат");
+            //        }
+            //        break;
+                
+            //    case "2":
+            //        Console.WriteLine("Обмен долларов на рубли");
+            //        Console.Write("Сколько вы хотите обменять?: ");
+            //        exchangeCurrency = Convert.ToSingle(Console.ReadLine());
+            //        if (usdInWallet >= exchangeCurrency)
+            //        {
+            //            usdInWallet -= exchangeCurrency;
+            //            rubInWallet += exchangeCurrency * usdToRub;
+            //        }
+
+            //        else
+            //        {
+            //            Console.WriteLine("Низя брат");
+            //        }
+            //            break;
+            //    default:
+            //        Console.WriteLine("Ошибка бро");
+            //        break;
+                    
+            //}
+            //Console.WriteLine($"Ваш баланс: {rubInWallet} рублей и {usdInWallet} долларов.");
         }
     }
 }
